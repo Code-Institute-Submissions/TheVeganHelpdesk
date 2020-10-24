@@ -13,6 +13,10 @@
 .veganCream {
     color: #FFFDE4;
 }
+.headerGreen {
+    color: #0f542e;
+
+}
 nav {
     background-color: #FFFDE4;
     font-weight: 400;
@@ -42,13 +46,41 @@ h2 {
 
 /*-----------------------------------Header-------------------------*/
 
-h1, h4 {
-    text-align: center
-}
-.logoBanner {
+
+.logoBanner h1, .logoBanner h4 {
     margin-top: 10px;
+    text-align: center;
+    padding: 10px 10px;
+    
+}
+h1{
+    font-size: 40px;
+}
+h4 {
+    font-size: 15px;
+    margin: 10px 10px 30px 10px;
 }
 
+.logoHeading {
+    margin-top: 30px;
+}
+@media only screen and (min-width : 576px) {
+    h1 {
+        font-size: 70px
+    }
+    h4 {
+        font-size: 25px;
+    }
+}
+    
+    
+        
+    
+
+
+.floatRight {
+    align-content: right;
+}
 
 
 
@@ -56,10 +88,42 @@ h1, h4 {
 
 /*-----------------------------------Footer-------------------------*/
 
+footer {
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    background-color: #FFFDE4;
+    padding-top: 20px;
+    vertical-align: middle;    
+
+}
+.copyright {
+    text-align: left;
+
+}
+.copyright p {
+    padding: 1em 0 1em 0;
+}
 
 
+.socialMedia {
+    text-align: right;
+    
+}
+.socialMedia i {
+    font-size: 40px;
+    padding: 10px 4px;
+}
 
-
+.fa-facebook-square {
+    color: #3B5998;
+}
+.fa-instagram-square {
+    color: #C13584;
+}
+.fa-twitter-square {
+    color: #1DA1F2
+}
 
 
 /*-----------------------------------TEXT HERE!-------------------------*/
