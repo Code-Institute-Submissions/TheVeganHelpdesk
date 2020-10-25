@@ -34,3 +34,34 @@ The Helpdesk will be a good place to go because:
 - there are no requirements in terms of commitments, this is just a guide for the visitor
 - the information will be short, sweet and relaxed
 
+
+
+
+
+
+
+
+
+# Credits
+
+## Photos
+Sheep in field
+- [Photo by Luke Stackpoole on Unsplash](https://unsplash.com/photos/sfB_Nw9sggw)
+
+Oats cookies with banana
+- [Photo by Monika Grabkowska on Unsplash](https://unsplash.com/photos/7zT-RtY7MxE)
+
+Vegan salad bowl
+- [Photo by Anna Pelzer on Unsplash](https://unsplash.com/photos/IGfIGP5ONV0)
+
+Tortoise 
+- [Photo by Joel M Mathey on Unsplash](https://unsplash.com/photos/qC_b3XPPUjo)
+
+Heart made out of nuts
+- [Photo by Michael Longmire on Unsplash](https://unsplash.com/photos/Y5nVEThyBxQ)
+
+Oreos
+- [Photo by Mae Mu on Unsplash](https://unsplash.com/s/photos/oreos)
+## Graphics
+
+All SVG graphics come from [Undraw](https://undraw.co/)
