@@ -46,7 +46,6 @@ h2 {
 
 /*-----------------------------------Header-------------------------*/
 
-
 .logoBanner h1, .logoBanner h4 {
     margin-top: 10px;
     text-align: center;
@@ -89,13 +88,12 @@ h4 {
 /*-----------------------------------Footer-------------------------*/
 
 footer {
-    height: 100px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     background-color: #FFFDE4;
-    padding-top: 20px;
-    vertical-align: middle;    
-
+    padding-top: 10px;
+    height: 80px;
+    
 }
 .copyright {
     text-align: left;
@@ -127,18 +125,43 @@ footer {
 
 
 /*-----------------------------------TEXT HERE!-------------------------*/
+.accordionColorOne {
+  background: linear-gradient(0deg, #FFFDE4, #7DCEA0)
+}
 
+.accordionColorTwo {
+  background-color: #FFFDE4;
+}
 
+.accordionColorThree {
+background: linear-gradient(0deg, #7DCEA0, #FFFDE4)
+}
+.cardBodyTextArea {
+    background-color: #333934;
+    color: #FFFDE4;
+}
+.welcomeImage img {
+    max-width: 200px;
+    height: auto;
+}
 
+.birdImage img {
+    max-width: 200px;
+    height: auto; 
+}
 
-
-
-
-
+.shoppingImage img {
+    max-width: 200px;
+    height: auto;
+}
 /*-----------------------------------TEXT HERE!-------------------------*/
 
 
-
+.reasonsAnimals img, .reasonsHealth img {
+    max-height: 240px;
+    width: auto;
+    border-radius: 50%;
+}
 
 
 
