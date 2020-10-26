@@ -58,10 +58,13 @@ h1{
 h4 {
     font-size: 15px;
     text-align: center;
-    padding: 10px 10px 30px 30px;
+    padding: 10px 30px 10px 30px;
     
 }
 
+h3 {
+    font-size: 25px;
+}
 .logoHeading {
     margin-top: 30px;
 }
@@ -72,9 +75,16 @@ h4 {
     h4 {
         font-size: 25px;
     }
+    h3 {
+    font-size: 30px;
+}
 }
     
-    
+.sectionHeading {
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+} 
         
     
 
@@ -145,20 +155,41 @@ background: linear-gradient(0deg, #7DCEA0, #FFFDE4)
 .cardBodyTextArea {
     background-color: #333934;
     color: #FFFDE4;
+    text-align: center;
 }
 .welcomeImage img {
-    max-width: 200px;
+    max-width: 100px;
     height: auto;
 }
 
 .birdImage img {
-    max-width: 200px;
+    max-width: 70px;
+    height: auto; 
+}
+
+.shoppingImage img {
+    max-width: 120px;
+    height: auto;
+}
+@media only screen and (min-width : 576px) {
+
+.welcomeImage img {
+    max-width: 150px;
+    height: auto;
+}
+
+.birdImage img {
+    max-width: 100px;
     height: auto; 
 }
 
 .shoppingImage img {
     max-width: 200px;
     height: auto;
+
+}
+
+
 }
 /*-----------------------------------Index Images-------------------------*/
 
@@ -168,7 +199,7 @@ background: linear-gradient(0deg, #7DCEA0, #FFFDE4)
     max-height: 300px;
     width: auto;
     border-radius: 50%;
-    padding: 20px 20px;
+    padding: 40px 20px 0 0;
 }
 
 
@@ -190,11 +221,14 @@ background: linear-gradient(0deg, #7DCEA0, #FFFDE4)
 /*-----------------------------------Section 3 Index animals-------------------------*/
 
 .reasonsAnimals {
+    text-align: right;
     background: linear-gradient(0deg, #7DCEA0, #FFFDE4);
     padding: 15px 10px;
 }
 
-
+.smallAnimalsHeading {
+    text-align: center;
+}
 
 
 
