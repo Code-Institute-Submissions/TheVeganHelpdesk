@@ -57,7 +57,9 @@ h1{
 }
 h4 {
     font-size: 15px;
-    margin: 10px 10px 30px 10px;
+    text-align: center;
+    padding: 10px 10px 30px 30px;
+    
 }
 
 .logoHeading {
@@ -81,7 +83,11 @@ h4 {
     align-content: right;
 }
 
-
+.contentBody {
+    height: 100%;
+    min-height: 100%;
+    
+}
 
 
 
@@ -124,7 +130,7 @@ footer {
 }
 
 
-/*-----------------------------------TEXT HERE!-------------------------*/
+/*-----------------------------------Introduction!-------------------------*/
 .accordionColorOne {
   background: linear-gradient(0deg, #FFFDE4, #7DCEA0)
 }
@@ -154,40 +160,51 @@ background: linear-gradient(0deg, #7DCEA0, #FFFDE4)
     max-width: 200px;
     height: auto;
 }
-/*-----------------------------------TEXT HERE!-------------------------*/
+/*-----------------------------------Index Images-------------------------*/
 
 
 .reasonsAnimals img, .reasonsHealth img {
-    max-height: 240px;
+    clear: both;
+    max-height: 300px;
     width: auto;
     border-radius: 50%;
+    padding: 20px 20px;
 }
 
 
 
 
 
-/*-----------------------------------TEXT HERE!-------------------------*/
+/*-----------------------------------Section 2 - Index Environment-------------------------*/
+
+.reasonsEnvironment {
+    background: linear-gradient(0deg, #FFFDE4, #7DCEA0);
+    padding: 15px 10px;
+}
 
 
 
 
 
 
+/*-----------------------------------Section 3 Index animals-------------------------*/
+
+.reasonsAnimals {
+    background: linear-gradient(0deg, #7DCEA0, #FFFDE4);
+    padding: 15px 10px;
+}
 
 
-/*-----------------------------------TEXT HERE!-------------------------*/
 
 
 
 
+/*-----------------------------------Section 4 Index Health-------------------------*/
 
-
-
-
-/*-----------------------------------TEXT HERE!-------------------------*/
-
-
+.reasonsHealth {
+    background: linear-gradient(0deg, #FFFDE4, #7DCEA0);
+    padding: 15px 10px 100px 10px;
+}
 
 
 
