@@ -96,7 +96,7 @@ h3 {
 .contentBody {
     height: 100%;
     min-height: 100%;
-    
+    width: auto;
 }
 
 
@@ -141,6 +141,9 @@ footer {
 
 
 /*-----------------------------------Introduction!-------------------------*/
+.card {
+    border: none;
+}
 .accordionColorOne {
   background: linear-gradient(0deg, #FFFDE4, #7DCEA0)
 }
@@ -151,6 +154,20 @@ footer {
 
 .accordionColorThree {
 background: linear-gradient(0deg, #7DCEA0, #FFFDE4)
+}
+.buttonText {
+    margin: 0 auto;
+    width: 150px;
+    border: 2px solid #333934;
+    border-radius: 10px;
+}
+.buttonText:hover {
+    margin: 0 auto;
+    width: 150px;
+    border: 2px solid #FFFDE4;
+    border-radius: 10px;
+    background-color:#333934;
+    color: #FFFDE4
 }
 .cardBodyTextArea {
     background-color: #333934;
@@ -188,25 +205,45 @@ background: linear-gradient(0deg, #7DCEA0, #FFFDE4)
     height: auto;
 
 }
+}
 
-
+.introduction, .reasonsHealth, .reasonsAnimals, .reasonsEnvironment {
+    padding-bottom: 20px;
+     border-bottom: 5px solid #333934;
 }
 /*-----------------------------------Index Images-------------------------*/
 
 
-.reasonsAnimals img, .reasonsHealth img {
-    clear: both;
-    max-height: 300px;
-    width: auto;
+.reasonsHealth img {
+     display: inline-block;
+    max-width: 60%;
+    height: auto;
+    vertical-align: middle;
+    padding: 10px;
     border-radius: 50%;
-    padding: 40px 20px 0 0;
+    object-fit: fill;
+    
+}
+.reasonsImage img {
+    display: inline-block;
+    max-width: 300px;
+    height: auto;
+    vertical-align: middle;
+    padding: 10px;
+    border-radius: 50%;
+    object-fit: fill;
+}
+.reasons {
+    text-align: center;
+}
+.reasonsHeading {
+    
+    background-color: #333934;
+    color: #FFFDE4;
 }
 
 
-
-
-
-/*-----------------------------------Section 2 - Index Environment-------------------------*/
+/*-----------------------------------Section 2 - Index Environment-----------------------*/
 
 .reasonsEnvironment {
     background: linear-gradient(0deg, #FFFDE4, #7DCEA0);
@@ -221,12 +258,12 @@ background: linear-gradient(0deg, #7DCEA0, #FFFDE4)
 /*-----------------------------------Section 3 Index animals-------------------------*/
 
 .reasonsAnimals {
-    text-align: right;
     background: linear-gradient(0deg, #7DCEA0, #FFFDE4);
     padding: 15px 10px;
 }
 
-.smallAnimalsHeading {
+.smallAnimalsHeading h4 {
+   
     text-align: center;
 }
 
