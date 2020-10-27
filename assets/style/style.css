@@ -1,8 +1,5 @@
 /*-----------------------------------Fonts and Colours-------------------------*/
-/*     #333934 - charcoal
-       #21D03E - vegan green - darker/better
-       
-       #FFFDE4 - white green */
+
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@300;400;500;600;700;800;900&family=Patrick+Hand&display=swap');       
 .veganGreen {
     color: #7DCEA0;
@@ -43,7 +40,21 @@ h2 {
 .biggerFont {
     font-size: 180%;
 }
-
+.chartMeat {
+    background-color:  #333934;
+}
+.chartMeatLight {
+    background-color:  #6C816F;
+}
+.chartPesca{
+    background-color:  #9DFCAB;
+}
+.chartVeggie{
+    background-color:  #21D03E;
+}
+.chartVegan{
+    background-color:  #0f542e;
+}
 /*-----------------------------------Header-------------------------*/
 
 .logoBanner h1, .logoBanner h4 {
@@ -85,19 +96,8 @@ h3 {
     text-align: center;
     text-decoration: underline;
 } 
-        
-    
 
 
-.floatRight {
-    align-content: right;
-}
-
-.contentBody {
-    height: 100%;
-    min-height: 100%;
-    width: auto;
-}
 
 
 
@@ -145,7 +145,7 @@ footer {
     border: none;
 }
 .accordionColorOne {
-  background: linear-gradient(0deg, #FFFDE4, #7DCEA0)
+  background: linear-gradient(0deg, #FFFDE4, #7DCEA0);
 }
 
 .accordionColorTwo {
@@ -153,7 +153,7 @@ footer {
 }
 
 .accordionColorThree {
-background: linear-gradient(0deg, #7DCEA0, #FFFDE4)
+background: linear-gradient(0deg, #7DCEA0, #FFFDE4);
 }
 .buttonText {
     margin: 0 auto;
@@ -212,6 +212,10 @@ background: linear-gradient(0deg, #7DCEA0, #FFFDE4)
      border-bottom: 5px solid #333934;
 }
 /*-----------------------------------Index Images-------------------------*/
+.reasonsEnvironment .chartStyle {
+    height: 30px;
+    border-radius: 20px; 
+}
 
 
 .reasonsHealth img {
