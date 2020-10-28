@@ -25,7 +25,7 @@ nav button i {
 }
 
 body {
-    background-color: #7DCEA0;
+    background-color: #a5bf63;
     color:  #333934;
     font-family: "Montserrat", sans-serif;
 }
@@ -56,12 +56,19 @@ h2 {
     background-color:  #0f542e;
 }
 /*-----------------------------------Header-------------------------*/
+.logoBanner {
+    background-image: url("/assets/images/limes.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
 
 .logoBanner h1, .logoBanner h4 {
-    margin-top: 10px;
-    text-align: center;
-    padding: 10px 10px;
-    
+    margin-top: 0;
+    text-align: left;
+    margin: auto 0;
+    padding: 30px 10px;
+    width: 33%
 }
 h1{
     font-size: 40px;
@@ -88,6 +95,12 @@ h3 {
     }
     h3 {
     font-size: 30px;
+}
+.logoBanner {
+    background-image: url("/assets/images/limes.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
 }
 }
     
@@ -145,7 +158,7 @@ footer {
     border: none;
 }
 .accordionColorOne {
-  background: linear-gradient(0deg, #FFFDE4, #7DCEA0);
+  background-color: #aac466;
 }
 
 .accordionColorTwo {
@@ -153,7 +166,7 @@ footer {
 }
 
 .accordionColorThree {
-background: linear-gradient(0deg, #7DCEA0, #FFFDE4);
+background: linear-gradient(0deg, #aac466, #FFFDE4);
 }
 .buttonText {
     margin: 0 auto;
@@ -250,7 +263,7 @@ background: linear-gradient(0deg, #7DCEA0, #FFFDE4);
 /*-----------------------------------Section 2 - Index Environment-----------------------*/
 
 .reasonsEnvironment {
-    background: linear-gradient(0deg, #FFFDE4, #7DCEA0);
+    background: linear-gradient(0deg, #FFFDE4, #aac466);
     padding: 15px 10px;
 }
 
@@ -262,7 +275,7 @@ background: linear-gradient(0deg, #7DCEA0, #FFFDE4);
 /*-----------------------------------Section 3 Index animals-------------------------*/
 
 .reasonsAnimals {
-    background: linear-gradient(0deg, #7DCEA0, #FFFDE4);
+    background: linear-gradient(0deg, #aac466, #FFFDE4);
     padding: 15px 10px;
 }
 
@@ -277,7 +290,7 @@ background: linear-gradient(0deg, #7DCEA0, #FFFDE4);
 /*-----------------------------------Section 4 Index Health-------------------------*/
 
 .reasonsHealth {
-    background: linear-gradient(0deg, #FFFDE4, #7DCEA0);
+    background: linear-gradient(0deg, #FFFDE4, #aac466);
     padding: 15px 10px 100px 10px;
 }
 
