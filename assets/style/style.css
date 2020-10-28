@@ -68,7 +68,7 @@ h2 {
     text-align: left;
     margin: auto 0;
     padding: 30px 10px;
-    width: 33%
+    width: 40%
 }
 h1{
     font-size: 40px;
@@ -95,13 +95,13 @@ h3 {
     }
     h3 {
     font-size: 30px;
-}
+    }
 .logoBanner {
     background-image: url("/assets/images/limes.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
-}
+    }
 }
     
 .sectionHeading {
@@ -299,9 +299,17 @@ background: linear-gradient(0deg, #aac466, #FFFDE4);
 
 
 
-/*-----------------------------------TEXT HERE!-------------------------*/
+/*-----------------------------------Page 2 Getting Started-------------------------*/
 
-
+.gettingStartedImage img {
+     display: inline-block;
+    max-width: 300px;
+    height: auto;
+    vertical-align: middle;
+    padding: 10px;
+    border-radius: 50%;
+    object-fit: fill;
+}
 
 
 
