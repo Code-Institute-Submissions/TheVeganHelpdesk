@@ -59,11 +59,12 @@ h2 {
 .logoBanner {
     background-image: url("/assets/images/limes.jpg");
     background-size: cover;
+    width: 100%;
     background-repeat: no-repeat;
     height: 200px;
 }
 
-.logoBanner h1, .logoBanner h4 {
+.logoBanner h4 {
     margin-top: 0;
     text-align: left;
     margin: auto 0;
@@ -83,9 +84,7 @@ h4 {
 h3 {
     font-size: 25px;
 }
-.logoHeading {
-    margin-top: 30px;
-}
+
 @media only screen and (min-width : 576px) {
     h1 {
         font-size: 70px
@@ -94,7 +93,7 @@ h3 {
         font-size: 25px;
     }
     h3 {
-    font-size: 30px;
+        font-size: 30px;
     }
 .logoBanner {
     background-image: url("/assets/images/limes.jpg");
@@ -316,9 +315,17 @@ background: linear-gradient(0deg, #aac466, #FFFDE4);
 
 
 
-/*-----------------------------------TEXT HERE!-------------------------*/
-
-
+/*-----------------------------------LocalHero!-------------------------*/
+.jumbotron {
+    background-color: transparent;
+}
+.localHeroJumbotron {
+    background-image: url("/assets/images/oatslandscape.jpg");
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    
 
 
 

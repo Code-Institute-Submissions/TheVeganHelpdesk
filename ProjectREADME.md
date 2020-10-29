@@ -45,6 +45,9 @@ The Helpdesk will be a good place to go because:
 # Credits
 
 ## Photos
+Limes
+- [Photo by Lewis Fagg on Unsplash](https://unsplash.com/photos/nauk28dN79s)
+
 Sheep in field
 - [Photo by Luke Stackpoole on Unsplash](https://unsplash.com/photos/sfB_Nw9sggw)
 
@@ -62,6 +65,15 @@ Heart made out of nuts
 
 Oreos
 - [Photo by Mae Mu on Unsplash](https://unsplash.com/s/photos/oreos)
+
+Vegan Burger
+- [Photo by Free to use sounds on Unsplash](https://unsplash.com/photos/q0vYaAcfulM)
+
+Beans
+- [Photo by Betty Subrizi on Unsplash](https://unsplash.com/photos/3OqOUrJBgZU)
+
+
+
 ## Graphics
 
 All SVG graphics come from [Undraw](https://undraw.co/)
