@@ -11,6 +11,7 @@
     <title>The Vegan Helpdesk | Beginners Guide</title>
 </head>
 <body class="signUpFormBody"> 
+<div class="page-container">
 <header>
 <!--------------------------------------------NAVBAR----------------------------------->
 <nav class="navbar navbar-expand-lg navbar-light mr-auto">
@@ -28,13 +29,17 @@
   </div>
   <a class="nav-link d-none d-lg-block" href="signup.html">Join Us!</a>
 </nav>
-<!-------------------------------------------Title----------------------------------->
+</header>
+<!--------------------------------------------Section 1----------------------------------->
+ <div class="contentBody">
+<section class="container-fluid">
+
 
 <form>
 <div class="formArea">
   <div class="form-group row">
-  <h4>Sign up for our monthly E-zine!</h4>
-    <label for="fullName" class="col-sm-3 col-form-label">Name</label>
+  <h4 class="col-12">Sign up for our monthly E-zine!</h4>
+    <label for="fullName" class="col-sm-3 col-form-label">Name:</label>
     <div class="col-sm-9">
       <input type="text" class="form-control inputStyle" id="fullName" placeholder="Name" required>
     </div>
@@ -42,14 +47,14 @@
 
 
   <div class="form-group row">
-    <label for="emailAddress" class="col-sm-3 col-form-label">Email</label>
+    <label for="emailAddress" class="col-sm-3 col-form-label">Email:</label>
     <div class="col-sm-9">
       <input type="email" class="form-control inputStyle" id="emailAddress" placeholder="E-mail Address" required>
     </div>
   </div>
   <fieldset class="form-group">
     <div class="row">
-      <legend class="col-form-label col-sm-4 pt-0">Are you looking to go:</legend>
+      <legend class="col-form-label col-sm-4 pt-0">Do you want to try:</legend>
       <div class="col-sm-8">
         <div class="form-check">
           <input class="form-check-input inputStyle" type="radio" name="gridRadios" id="gridRadios1" value="option1">
@@ -91,9 +96,54 @@
 </form>
 
 
-</header>
-<!--------------------------------------------Section 1----------------------------------->
-<section></section>
+<div class="accordion aboutSection" id="accordionExample">
+            <div class="card">
+              <div class="card-header accordionColorOne" id="headingOne">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-block text-center collapsed accordionHeadings"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    <div class="welcomeImage">
+                      <img src="/assets/images/welcome1.svg" />
+                    </div>
+                    <br />
+                    <h5 class="buttonText">About us</h5>
+                  </button>
+                </h2>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="collapse"
+                aria-labelledby="headingOne"
+                data-parent="#accordionExample"
+              >
+                <div class="row cardBodyTextArea">
+                  <div
+                    class="col-12 col-md-8 offset-md-2 card-body cardBodyText"
+                  >
+                    We are a merry band of chill vegans - both full and part
+                    time - looking to spread the good word ONLY to those who
+                    want to hear it! As with anything, this is a lifestyle that
+                    should be a choice, and we would like to make that as
+                    accessible to as many people as we possibly can. We believe
+                    that how you go about attempting plant based foods is your
+                    own choice. There's a lot of info out there that can make
+                    the transition seem daunting and it absolutely doesn't have
+                    to be! So! Let's begin!
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+       
+</section>
+</div>
 <!--------------------------------------------FOOTER----------------------------------->
 <footer class="container-fluid">
 	<div class="row">
@@ -109,7 +159,7 @@
 		</div>
 	</div>
 </footer>
-
+</div>
 <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

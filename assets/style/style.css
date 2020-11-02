@@ -25,6 +25,7 @@ nav button i {
 }
 
 body {
+    
     background-color: #adc56b;
     color:  #333934;
     font-family: "Montserrat", sans-serif;
@@ -108,16 +109,24 @@ h3 {
     text-align: center;
     text-decoration: underline;
 } 
+.page-container{
+    position: relative;
+    min-height: 100vh;
+}
 
 
+.contentBody {
+  padding-bottom: 60px;  
+}
 
 
 
 /*-----------------------------------Footer-------------------------*/
-
 footer {
-    position: fixed;
+    
+    position: absolute;
     bottom: 0;
+    left: 0;
     background-color: #FFFDE4;
     padding-top: 10px;
     height: 80px;
@@ -151,13 +160,12 @@ footer {
     color: #1DA1F2
 }
 
-
 /*-----------------------------------Introduction!-------------------------*/
 .card {
     border: none;
 }
 .accordionColorOne {
-  background-color: #aac466;
+  background-color: #a9c164;
 }
 
 .accordionColorTwo {
@@ -219,7 +227,7 @@ background: linear-gradient(0deg, #aac466, #FFFDE4);
 }
 }
 
-.introduction, .reasonsHealth, .reasonsAnimals, .reasonsEnvironment {
+.introduction, .reasonsEnvironment, .reasonsAnimals {
     padding-bottom: 20px;
      border-bottom: 5px solid #333934;
 }
@@ -290,7 +298,7 @@ background: linear-gradient(0deg, #aac466, #FFFDE4);
 
 .reasonsHealth {
     background: linear-gradient(0deg, #FFFDE4, #aac466);
-    padding: 15px 10px 100px 10px;
+    padding: 15px 10px 80px 10px;
 }
 
 
@@ -336,8 +344,8 @@ background: linear-gradient(0deg, #aac466, #FFFDE4);
 .signUpFormBody {
     background-image: url("/assets/images/limes.jpg");
     background-size: cover;
-    height: 100%;
-    width: auto;
+    width: 100%;
+    height: auto;
     background-repeat: no-repeat;
     z-index: -1;
 }
@@ -360,12 +368,15 @@ background: linear-gradient(0deg, #aac466, #FFFDE4);
     padding: 10px 0px;
 }
 
-@media only screen and (min-width : 576px) {
+@media only screen and (min-width : 768px) {
   .formArea {
-      margin: 10px 10px;
+      margin: 20px auto;
       width: 50%;
       border-radius: 2%;
    }
+}
+.aboutSection {
+    margin-bottom: 100px;
 }
 /*-----------------------------------TEXT HERE!-------------------------*/
 
@@ -395,3 +406,5 @@ background: linear-gradient(0deg, #aac466, #FFFDE4);
 
 
 /*-----------------------------------TEXT HERE!-------------------------*/
+
+
