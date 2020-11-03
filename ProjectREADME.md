@@ -19,7 +19,7 @@ The target customers are:
 - people who are already trying and looking for tips/motivation
 
 
-# UX
+## UX
 
 This site is aimed at
 - English speakers
@@ -33,18 +33,40 @@ The Helpdesk will be a good place to go because:
 - this will be an inclusive and easy going approach
 - there are no requirements in terms of commitments, this is just a guide for the visitor
 - the information will be short, sweet and relaxed
+- There will be an option to sign up to receive favourite recipe and product ideas for free!
 
 
+## The Site - Features
 
+Each page has a responsive navigation bar at the top, which collapses down to a hamburger button and the site name on smaller devices. The footer matches in colour with basic "copyright" info and social links (These lead to the various social media main pages as this company is fictional!).
 
+There is an over-all colour scheme of cream, green and charcoal, with the green being taken from the main hero image. The local hero page has a different layout and aesthetic, as its focus is to promote a parter company. The hero image becomes the background image to the sign up form.
 
+### 1. Home page
 
+This is an introductory page with a background style hero image intended not to clutter the header area. There is a small 'introductory' sentence to the left of the image. The title of the website will appear only in the browser and nav bars. The page conatins typical reasons peeple have for switching to a plant-based diet.
 
+The first is environmental with a visual comparison of the various dietary impacts on the environment. This is purely a visual comparison aid using bootstraps progress bar tool. 
 
+The second and third are animals and health, with accompanying images. All three observe the rule of thirds when viewed in full screen, and condense as the screen gets smaller to a mobile screen where elements take a full col-12 width.
 
-# Credits
+*there was to be an introduction to the website above the reasons section here, but it ended up looking cluttered and a little childish, and ultimately added nothing to the website. There is a small about section added to______!!!!!!!!!!!!!!!!!!!!!
 
-## Photos
+### 2. Getting Started Page
+
+This completely follows the home page stylistically. 
+
+### 3. Local Hero Page
+
+This is a showcase of a local company that is plant-based or environmentally friendly. Apart from the header and footer, this page takes on the style of the featured company and links seperately to their website/social after a brief synopsis. There will also be a link here to our sign up (modal version) as they will also receive 15% off our monthly featured heros products when purchased online.
+
+### 4. Sign Up Page
+
+This features the hero image as a full background for the page. The sign up form contains options for what type of diet the user wishes to follow.
+
+## Credits
+
+### - Photos
 Limes
 - [Photo by Lewis Fagg on Unsplash](https://unsplash.com/photos/nauk28dN79s)
 
@@ -74,6 +96,10 @@ Beans
 
 
 
-## Graphics
+### - Graphics
 
 All SVG graphics come from [Undraw](https://undraw.co/)
+
+### - Favicon 
+
+Favicon image was created using [Free Logo Designer](https://www.freelogodesign.org/) and uses a generic symbol for veganism. This was in turn converted to .ico using [Favicon](https://www.favicon.cc/?).

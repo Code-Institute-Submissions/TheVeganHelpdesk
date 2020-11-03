@@ -1,19 +1,14 @@
 /*-----------------------------------Fonts and Colours-------------------------*/
 
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@300;400;500;600;700;800;900&family=Patrick+Hand&display=swap');       
-.veganGreen {
-    color: #7DCEA0;
-}
-.colorCharcoal {
-    color: #333934;
-}
-.veganCream {
-    color: #FFFDE4;
-}
-.headerGreen {
-    color: #0f542e;
+/*---Lime Green #adc56b;
 
-}
+Charcoal: #333934;
+
+Cream: #FFFDE4;
+
+Dark Green: #0f542e;---*/
+
 nav {
     background-color: #FFFDE4;
     font-weight: 400;
@@ -29,6 +24,9 @@ body {
     background-color: #adc56b;
     color:  #333934;
     font-family: "Montserrat", sans-serif;
+}
+#heroBody {
+    background-color: #FFFDE4;
 }
 h2 {
     color: #333934;
@@ -56,6 +54,27 @@ h2 {
 .chartVegan{
     background-color:  #0f542e;
 }
+/*-----------------------------------General Page Layout-------------------------*/
+.page-container{
+    position: relative;
+    min-height: 100vh;
+}
+
+.contentBody {
+  padding-bottom: 80px;  
+}
+
+footer {
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #FFFDE4;
+    padding-top: 10px;
+    height: 80px;
+    
+}
+
 /*-----------------------------------Header-------------------------*/
 .logoBanner {
     background-image: url("/assets/images/limes.jpg");
@@ -75,6 +94,9 @@ h2 {
 h1{
     font-size: 40px;
 }
+h3 {
+    font-size: 25px;
+}
 h4 {
     font-size: 15px;
     text-align: center;
@@ -82,20 +104,17 @@ h4 {
     
 }
 
-h3 {
-    font-size: 25px;
-}
-
 @media only screen and (min-width : 576px) {
     h1 {
         font-size: 70px
     }
-    h4 {
-        font-size: 25px;
-    }
     h3 {
         font-size: 30px;
     }
+    h4 {
+        font-size: 25px;
+    }
+    
 .logoBanner {
     background-image: url("/assets/images/limes.jpg");
     background-size: cover;
@@ -109,47 +128,22 @@ h3 {
     text-align: center;
     text-decoration: underline;
 } 
-.page-container{
-    position: relative;
-    min-height: 100vh;
-}
-
-
-.contentBody {
-  padding-bottom: 60px;  
-}
-
-
-
 /*-----------------------------------Footer-------------------------*/
-footer {
-    
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: #FFFDE4;
-    padding-top: 10px;
-    height: 80px;
-    
-}
+
 .copyright {
     text-align: left;
-
 }
 .copyright p {
     padding: 1em 0 1em 0;
 }
 
-
 .socialMedia {
-    text-align: right;
-    
+    text-align: right;   
 }
 .socialMedia i {
     font-size: 40px;
     padding: 10px 4px;
 }
-
 .fa-facebook-square {
     color: #3B5998;
 }
@@ -160,20 +154,144 @@ footer {
     color: #1DA1F2
 }
 
-/*-----------------------------------Introduction!-------------------------*/
-.card {
+/*-----------------------------------Index page specific-------------------------*/
+
+.reasonsEnvironment, .reasonsAnimals, .reasonsHealth {
+    padding-bottom: 20px;
+     border-bottom: 5px solid #333934;
+}
+/*-----------------------------------Index page media-------------------------*/
+.reasonsEnvironment .chartStyle {
+    height: 30px;
+    border-radius: 20px; 
+}
+.reasonsHealth img {
+     display: inline-block;
+    max-width: 60%;
+    height: auto;
+    vertical-align: middle;
+    padding: 10px;
+    border-radius: 50%;
+    object-fit: fill;
+    
+}
+.reasonsImage img {
+    display: inline-block;
+    max-width: 300px;
+    height: auto;
+    vertical-align: middle;
+    padding: 10px;
+    border-radius: 50%;
+    object-fit: fill;
+}
+
+/*-----------------------------------Index page content-----------------------*/
+.reasons {
+    text-align: center;
+}
+.reasonsHeading {
+    
+    background-color: #333934;
+    color: #FFFDE4;
+}
+.reasonsEnvironment {
+    background: linear-gradient(0deg, #FFFDE4, #aac466);
+    padding: 15px 10px;
+}
+.reasonsAnimals {
+    background: linear-gradient(0deg, #aac466, #FFFDE4);
+    padding: 15px 10px;
+}
+.reasonsHealth {
+    background: linear-gradient(0deg, #FFFDE4, #aac466);
+    padding: 15px 10px 80px 10px;
+}
+
+
+/*-----------------------------------Page 2 Getting Started-------------------------*/
+
+.gettingStartedImage img {
+     display: inline-block;
+    max-width: 300px;
+    height: auto;
+    vertical-align: middle;
+    padding: 10px;
+    border-radius: 50%;
+    object-fit: fill;
+}
+
+/*-----------------------------------LocalHero!-------------------------*/
+.jumbotron {
+    background-color: transparent;
+}
+.localHeroJumbotron {
+    background-image: url("/assets/images/oatslandscape.jpg");
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    
+}
+.galleryStyle {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    
+}
+@media only screen and (min-width : 576px) {
+   .galleryStyle {
+    width: 50%;
+    
+} 
+}
+.galleryItem h5, .galleryItem p {
+    color: #333934;
+    background-color: #FFFDE4;
+}
+
+
+/*-----------------------------------Form-------------------------*/
+.signUpFormBody {
+    background-image: url("/assets/images/limes.jpg");
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.formArea {
+ 
+ width: 90%;
+ background-color: #FFFDE4;
+ border-radius: 2%;
+ padding: 1.5em 1.5em;
+ margin: 10px auto;
+ 
+}
+
+.inputStyle {
+    background-color: #aac466;
+}
+
+.consentButton {
+    padding: 10px 0px;
+}
+
+@media only screen and (min-width : 768px) {
+  .formArea {
+      margin: 20px auto;
+      width: 50%;
+      border-radius: 2%;
+   }
+}
+.aboutSection {
+    margin-bottom: 100px;
+}.card {
     border: none;
 }
 .accordionColorOne {
   background-color: #a9c164;
-}
-
-.accordionColorTwo {
-  background-color: #FFFDE4;
-}
-
-.accordionColorThree {
-background: linear-gradient(0deg, #aac466, #FFFDE4);
 }
 .buttonText {
     margin: 0 auto;
@@ -227,157 +345,6 @@ background: linear-gradient(0deg, #aac466, #FFFDE4);
 }
 }
 
-.introduction, .reasonsEnvironment, .reasonsAnimals {
-    padding-bottom: 20px;
-     border-bottom: 5px solid #333934;
-}
-/*-----------------------------------Index Images-------------------------*/
-.reasonsEnvironment .chartStyle {
-    height: 30px;
-    border-radius: 20px; 
-}
-
-
-.reasonsHealth img {
-     display: inline-block;
-    max-width: 60%;
-    height: auto;
-    vertical-align: middle;
-    padding: 10px;
-    border-radius: 50%;
-    object-fit: fill;
-    
-}
-.reasonsImage img {
-    display: inline-block;
-    max-width: 300px;
-    height: auto;
-    vertical-align: middle;
-    padding: 10px;
-    border-radius: 50%;
-    object-fit: fill;
-}
-.reasons {
-    text-align: center;
-}
-.reasonsHeading {
-    
-    background-color: #333934;
-    color: #FFFDE4;
-}
-
-
-/*-----------------------------------Section 2 - Index Environment-----------------------*/
-
-.reasonsEnvironment {
-    background: linear-gradient(0deg, #FFFDE4, #aac466);
-    padding: 15px 10px;
-}
-
-
-
-
-
-
-/*-----------------------------------Section 3 Index animals-------------------------*/
-
-.reasonsAnimals {
-    background: linear-gradient(0deg, #aac466, #FFFDE4);
-    padding: 15px 10px;
-}
-
-.smallAnimalsHeading h4 {
-   
-    text-align: center;
-}
-
-
-
-
-/*-----------------------------------Section 4 Index Health-------------------------*/
-
-.reasonsHealth {
-    background: linear-gradient(0deg, #FFFDE4, #aac466);
-    padding: 15px 10px 80px 10px;
-}
-
-
-
-
-
-
-/*-----------------------------------Page 2 Getting Started-------------------------*/
-
-.gettingStartedImage img {
-     display: inline-block;
-    max-width: 300px;
-    height: auto;
-    vertical-align: middle;
-    padding: 10px;
-    border-radius: 50%;
-    object-fit: fill;
-}
-
-
-
-
-
-
-/*-----------------------------------LocalHero!-------------------------*/
-.jumbotron {
-    background-color: transparent;
-}
-.localHeroJumbotron {
-    background-image: url("/assets/images/oatslandscape.jpg");
-    background-size: cover;
-    width: 100%;
-    background-repeat: no-repeat;
-    height: 300px;
-    
-}
-
-
-
-
-
-/*-----------------------------------Form-------------------------*/
-.signUpFormBody {
-    background-image: url("/assets/images/limes.jpg");
-    background-size: cover;
-    width: 100%;
-    height: auto;
-    background-repeat: no-repeat;
-    z-index: -1;
-}
-
-.formArea {
- 
- width: 90%;
- background-color: #FFFDE4;
- border-radius: 2%;
- padding: 1.5em 1.5em;
- margin: 10px auto;
- 
-}
-
-.inputStyle {
-    background-color: #aac466;
-}
-
-.consentButton {
-    padding: 10px 0px;
-}
-
-@media only screen and (min-width : 768px) {
-  .formArea {
-      margin: 20px auto;
-      width: 50%;
-      border-radius: 2%;
-   }
-}
-.aboutSection {
-    margin-bottom: 100px;
-}
 /*-----------------------------------TEXT HERE!-------------------------*/
 
 
