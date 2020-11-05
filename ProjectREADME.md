@@ -50,8 +50,7 @@ The first is environmental with a visual comparison of the various dietary impac
 
 The second and third are animals and health, with accompanying images. All three observe the rule of thirds when viewed in full screen, and condense as the screen gets smaller to a mobile screen where elements take a full col-12 width.
 
-*there was to be an introduction to the website above the reasons section here, but it ended up looking cluttered and a little childish, and ultimately added nothing to the website. There is a small about section added to______!!!!!!!!!!!!!!!!!!!!!
-
+The Home Page is accessed by both the "logo" and the home button in the Navbar.
 ### 2. Getting Started Page
 
 This completely follows the home page stylistically. 
@@ -64,6 +63,28 @@ This is a showcase of a local company that is plant-based or environmentally fri
 
 This features the hero image as a full background for the page. The sign up form contains options for what type of diet the user wishes to follow.
 
+## Execution
+The project was created using:
+- HTML 
+- CSS
+- Bootstrap (including CSS, JavaScript and JQuery scripts) 
+- Google Fonts 
+- Font Awesome
+- [Undraw](https://undraw.co/)
+- [Unsplash](https://unsplash.com/)
+- [Favicon.cc](https://www.favicon.cc/?)
+- [FreeLogoDesign](https://www.freelogodesign.org/)
+
+The page container layout to keep the footer at the bottom was influenced by [FreeCodeCamp](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/).
+The navigation bar, sign up form, basic grid layout, modal, carousel, progress bar and accordion were taken from the bootstrap library and then styled using CSS. 
+
+There was to be an introduction to the website above the reasons section in the Introduction as per the Wireframe, but it ended up looking cluttered and a little childish, and ultimately added nothing to the website. There is a small about section added to the final page instead.
+
+The layout of the page past the hero image is constructed using the .row and .col containers from Bootstrap. For small and medium screens, each col will be full width as after various aesthetic tests, this was the tidiest option for a medium screen. In large+ screens, this will observe the rule of thirds: the image/bar chart will take up one third with the text taking two.
+
+The images files for these needed to be square (as opposed to rectangular) in order to maintain similar dimensions as the corners were curved off to a circle. These were all styled the same way to maintain a visual harmony between elements.
+
+The background colour for each section is comprised of the main cream and green from the website with a linear gradient of 0 degrees, fading from the green of the hero image, to cream, to green, to the cream of the footer. The colours for the bar chart were chosen in order that they would reasonably stand out from the background, while retaining a visual link to the rest of the site.
 ## Credits
 
 ### - Photos

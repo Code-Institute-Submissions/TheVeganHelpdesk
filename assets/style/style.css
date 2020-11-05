@@ -224,22 +224,41 @@ h4 {
 .jumbotron {
     background-color: transparent;
 }
-.localHeroJumbotron {
-    background-image: url("/assets/images/oatslandscape.jpg");
-    background-size: cover;
-    width: 100%;
-    background-repeat: no-repeat;
-    height: 300px;
-    
+.jumbotronText h3, .jumbotronText p {
+    text-align: right;
+    padding: 0 15px;
 }
+.superHeroImage img {
+    display: inline-block;
+    max-width: 250px;
+    height: auto;
+    padding: 10px 10px 10px 60px;
+    object-fit: fill;
+}
+
 .galleryStyle {
     width: 90%;
     height: auto;
+    padding: 20px;
     margin: 0 auto;
-    
+    border-radius: 10px;
+}
+.localHeroText {
+    width: 90%;
+    height: auto;
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: center;
 }
 @media only screen and (min-width : 576px) {
-   .galleryStyle {
+   .galleryStyle, .localHeroText {
+    width: 70%;
+    
+} 
+
+}
+@media only screen and (min-width : 982px) {
+   .galleryStyle, .localHeroText {
     width: 50%;
     
 } 
@@ -248,8 +267,18 @@ h4 {
     color: #333934;
     background-color: #FFFDE4;
 }
-
-
+.localHeroSignUp {
+    background-color: #333934;
+    color: #FFFDE4;
+    border: 2px solid #FFFDE4;
+    border-radius: 5%;
+}
+.localHeroSignUp:hover {
+    background-color: #FFFDE4;
+    color: #333934;
+    border: 2px solid #333934;
+    border-radius: 5%;
+}
 /*-----------------------------------Form-------------------------*/
 .signUpFormBody {
     background-image: url("/assets/images/limes.jpg");
