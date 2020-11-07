@@ -346,6 +346,11 @@ h4 {
 .consentButton {
     padding: 10px 0px;
 }
+.aboutSection {
+    background: linear-gradient(0deg, #aac466, transparent);
+    margin-bottom: 10px;
+    width: 100%;
+}
 
 @media only screen and (min-width: 768px) {
     .formArea {
@@ -354,21 +359,14 @@ h4 {
         border-radius: 10px;
     }
     .aboutSection {
-        margin: 0 auto;
+        
         border-radius: 10px;
         background: linear-gradient(0deg, #aac466, transparent);
     }
 }
 
-.aboutSection {
-    background: linear-gradient(0deg, #aac466, transparent);
-    margin-bottom: 10px;
-    width: 100%;
-}
-.aboutSection {
-    width: 90%;
-    margin: 0 auto;
-}
+
+/*--
 .accordionStyle {
     background-color: #a9c164;
 }
@@ -390,7 +388,7 @@ h4 {
     background-color: #333934;
     color: #fffde4;
     text-align: center;
-}
+} --*/
 .welcomeImage img {
     display: inline-block;
     max-width: 200px;
