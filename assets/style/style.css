@@ -167,32 +167,36 @@ h4 {
 }
 .sectionHeading h3 {
     padding-top: 20px;
-    text-align: center; 
+    text-align: center;
 }
 .reasonsEnvironment,
 .reasonsAnimals,
-.reasonsHealth, 
+.reasonsHealth,
 .gettingStartedSlow,
 .gettingStartedVeganMeat,
 .gettingStartedProtein {
     padding-bottom: 20px;
-    
 }
-.reasons, .gettingStarted {
+.reasons,
+.gettingStarted {
     text-align: center;
 }
-.reasons h4, .gettingStarted h4 {
+.reasons h4,
+.gettingStarted h4 {
     text-decoration: underline;
 }
-.reasonsEnvironment, .gettingStartedSlow {
+.reasonsEnvironment,
+.gettingStartedSlow {
     background: linear-gradient(0deg, #fffde4, #aac466);
     padding: 15px 10px;
 }
-.reasonsAnimals, .gettingStartedVeganMeat {
+.reasonsAnimals,
+.gettingStartedVeganMeat {
     background: linear-gradient(0deg, #aac466, #fffde4);
     padding: 15px 10px;
 }
-.reasonsHealth, .gettingStartedProtein{
+.reasonsHealth,
+.gettingStartedProtein {
     background: linear-gradient(0deg, #fffde4, #aac466);
     padding: 15px 10px 80px 10px;
 }
@@ -207,7 +211,8 @@ h4 {
 .climateStyle p {
     padding: 10px;
 }
-.reasonsImage img, .gettingStartedImage img  {
+.reasonsImage img,
+.gettingStartedImage img {
     display: inline-block;
     max-width: 300px;
     height: auto;
@@ -224,7 +229,6 @@ h4 {
     font-weight: 600;
     background: transparent;
     border: none;
-   
 }
 .gettingStartedSignUp:hover {
     background-color: #333934;
@@ -241,7 +245,7 @@ h4 {
 }
 .jumbotronText h3,
 .jumbotronText p {
-    color:#333934;
+    color: #333934;
     text-align: right;
     padding: 0 15px;
 }
@@ -311,7 +315,6 @@ h4 {
     width: 90%;
     background-color: #fffde4;
     border-radius: 2%;
-    
 }
 /*-----------------------------------Form-------------------------*/
 .signUpFormBody {
@@ -357,7 +360,6 @@ h4 {
     }
 }
 
-
 .aboutSection {
     background: linear-gradient(0deg, #aac466, transparent);
     margin-bottom: 10px;
@@ -392,9 +394,8 @@ h4 {
 .welcomeImage img {
     display: inline-block;
     max-width: 200px;
-    
+
     vertical-align: middle;
     padding: 10px;
     object-fit: fill;
-    
 }
