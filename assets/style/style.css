@@ -1,6 +1,6 @@
 /*-----------------------------------Fonts and Colours-------------------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@300;400;500;600;700;800;900&family=Patrick+Hand&display=swap');       
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@300;400;500;600;700;800;900&family=Patrick+Hand&display=swap");
 /*---Lime Green #adc56b;
 
 Charcoal: #333934;
@@ -10,78 +10,77 @@ Cream: #FFFDE4;
 Dark Green: #0f542e;---*/
 
 nav {
-    background-color: #FFFDE4;
+    background-color: #fffde4;
     font-weight: 400;
     font-size: 16px;
-    
 }
 nav button i {
     color: #333934;
 }
 
 body {
-    
     background-color: #adc56b;
-    color:  #333934;
+    color: #333934;
     font-family: "Montserrat", sans-serif;
 }
 #heroBody {
-    background-color: #FFFDE4;
+    background-color: #333934;
+    color: #fffde4;
 }
 h2 {
     color: #333934;
 }
 
 .indie {
-     font-family: "Indie Flower", cursive;
-     text-decoration: underline;
+    font-family: "Indie Flower", cursive;
+    text-decoration: underline;
 }
 .biggerFont {
     font-size: 180%;
 }
 .chartMeat {
-    background-color:  #333934;
+    background-color: #333934;
 }
 .chartMeatLight {
-    background-color:  #6C816F;
+    background-color: #6c816f;
 }
-.chartPesca{
-    background-color:  #9DFCAB;
+.chartPesca {
+    background-color: #9dfcab;
 }
-.chartVeggie{
-    background-color:  #21D03E;
+.chartVeggie {
+    background-color: #21d03e;
 }
-.chartVegan{
-    background-color:  #0f542e;
+.chartVegan {
+    background-color: #0f542e;
 }
 /*-----------------------------------General Page Layout-------------------------*/
-.page-container{
+.page-container {
     position: relative;
     min-height: 100vh;
 }
 
 .contentBody {
-  padding-bottom: 80px;  
+    padding-bottom: 80px;
 }
 
 footer {
-    
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: #FFFDE4;
+    background-color: #fffde4;
     padding-top: 10px;
     height: 80px;
-    
+    color: #333934;
 }
 
 /*-----------------------------------Header-------------------------*/
 .logoBanner {
+    position: relative;
     background-image: url("/assets/images/limes.jpg");
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
-    height: 200px;
+    height: 300px;
 }
 
 .logoBanner h4 {
@@ -89,9 +88,9 @@ footer {
     text-align: left;
     margin: auto 0;
     padding: 30px 10px;
-    width: 40%
+    width: 40%;
 }
-h1{
+h1 {
     font-size: 40px;
 }
 h3 {
@@ -101,12 +100,11 @@ h4 {
     font-size: 15px;
     text-align: center;
     padding: 10px 30px 10px 30px;
-    
 }
 
-@media only screen and (min-width : 576px) {
+@media only screen and (min-width: 576px) {
     h1 {
-        font-size: 70px
+        font-size: 70px;
     }
     h3 {
         font-size: 30px;
@@ -114,20 +112,26 @@ h4 {
     h4 {
         font-size: 25px;
     }
-    
-.logoBanner {
-    background-image: url("/assets/images/limes.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 500px;
+
+    .logoBanner {
+        background-image: url("/assets/images/limes.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
     }
 }
-    
 .sectionHeading {
+    background: linear-gradient(0deg, #aac466, transparent);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.sectionHeading h3 {
     padding-top: 20px;
     text-align: center;
-    text-decoration: underline;
-} 
+   
+    
+}
 /*-----------------------------------Footer-------------------------*/
 
 .copyright {
@@ -138,42 +142,49 @@ h4 {
 }
 
 .socialMedia {
-    text-align: right;   
+    text-align: right;
 }
 .socialMedia i {
     font-size: 40px;
     padding: 10px 4px;
 }
 .fa-facebook-square {
-    color: #3B5998;
+    color: #3b5998;
 }
 .fa-instagram-square {
-    color: #C13584;
+    color: #c13584;
 }
 .fa-twitter-square {
-    color: #1DA1F2
+    color: #1da1f2;
 }
 
 /*-----------------------------------Index page specific-------------------------*/
 
-.reasonsEnvironment, .reasonsAnimals, .reasonsHealth {
+.reasonsEnvironment,
+.reasonsAnimals,
+.reasonsHealth {
     padding-bottom: 20px;
-     border-bottom: 5px solid #333934;
+    
 }
 /*-----------------------------------Index page media-------------------------*/
 .reasonsEnvironment .chartStyle {
     height: 30px;
-    border-radius: 20px; 
+    border-radius: 20px;
+}
+.climateStyle {
+    padding: 10px;
+}
+.climateStyle p {
+    padding: 10px;
 }
 .reasonsHealth img {
-     display: inline-block;
+    display: inline-block;
     max-width: 60%;
     height: auto;
     vertical-align: middle;
     padding: 10px;
     border-radius: 50%;
     object-fit: fill;
-    
 }
 .reasonsImage img {
     display: inline-block;
@@ -190,28 +201,26 @@ h4 {
     text-align: center;
 }
 .reasonsHeading {
-    
     background-color: #333934;
-    color: #FFFDE4;
+    color: #fffde4;
 }
 .reasonsEnvironment {
-    background: linear-gradient(0deg, #FFFDE4, #aac466);
+    background: linear-gradient(0deg, #fffde4, #aac466);
     padding: 15px 10px;
 }
 .reasonsAnimals {
-    background: linear-gradient(0deg, #aac466, #FFFDE4);
+    background: linear-gradient(0deg, #aac466, #fffde4);
     padding: 15px 10px;
 }
 .reasonsHealth {
-    background: linear-gradient(0deg, #FFFDE4, #aac466);
+    background: linear-gradient(0deg, #fffde4, #aac466);
     padding: 15px 10px 80px 10px;
 }
-
 
 /*-----------------------------------Page 2 Getting Started-------------------------*/
 
 .gettingStartedImage img {
-     display: inline-block;
+    display: inline-block;
     max-width: 300px;
     height: auto;
     vertical-align: middle;
@@ -219,14 +228,34 @@ h4 {
     border-radius: 50%;
     object-fit: fill;
 }
-
+.gettingStartedSignUp {
+    color: #333934;
+    text-decoration: underline;
+   background: transparent;
+   border:none;
+   
+}
+.gettingStartedSignUp:hover {
+    background-color: #333934;
+    color: #fffde4;
+    border-radius: 20px;
+}
+.modal-content {
+   background-color: #fffde4;
+}
 /*-----------------------------------LocalHero!-------------------------*/
 .jumbotron {
-    background-color: transparent;
+    background-color: #fffde4;
+    border-radius: 0;
 }
-.jumbotronText h3, .jumbotronText p {
+.jumbotronText h3,
+.jumbotronText p {
+    color:#333934;
     text-align: right;
     padding: 0 15px;
+}
+.heroHeading {
+    text-align: center;
 }
 .superHeroImage img {
     display: inline-block;
@@ -250,34 +279,49 @@ h4 {
     margin: 0 auto;
     text-align: center;
 }
-@media only screen and (min-width : 576px) {
-   .galleryStyle, .localHeroText {
-    width: 70%;
-    
-} 
-
+@media only screen and (min-width: 576px) {
+    .galleryStyle,
+    .localHeroText {
+        width: 70%;
+    }
 }
-@media only screen and (min-width : 982px) {
-   .galleryStyle, .localHeroText {
-    width: 50%;
-    
-} 
+@media only screen and (min-width: 982px) {
+    .galleryStyle,
+    .localHeroText {
+        width: 50%;
+    }
 }
-.galleryItem h5, .galleryItem p {
+.galleryItem {
+    border-radius: 5%;
+}
+.galleryItem h5,
+.galleryItem p {
     color: #333934;
-    background-color: #FFFDE4;
+    background-color: #fffde4;
+    border-radius: 20px;
+    padding: 2px;
 }
+
 .localHeroSignUp {
     background-color: #333934;
-    color: #FFFDE4;
-    border: 2px solid #FFFDE4;
-    border-radius: 5%;
+    color: #fffde4;
+    border: 2px solid #fffde4;
+    border-radius: 20px;
 }
 .localHeroSignUp:hover {
-    background-color: #FFFDE4;
+    background-color: #fffde4;
     color: #333934;
     border: 2px solid #333934;
-    border-radius: 5%;
+    border-radius: 20px;
+}
+
+.formAreaModal {
+    color: #333934;
+    width: 90%;
+    background-color: #fffde4;
+    border-radius: 2%;
+    padding: 1.5em 1.5em;
+    margin: 10px auto;
 }
 /*-----------------------------------Form-------------------------*/
 .signUpFormBody {
@@ -290,37 +334,49 @@ h4 {
 }
 
 .formArea {
- 
- width: 90%;
- background-color: #FFFDE4;
- border-radius: 2%;
- padding: 1.5em 1.5em;
- margin: 10px auto;
- 
+    width: 90%;
+    background-color: #fffde4;
+    border-radius: 2%;
+    padding: 1.5em 1.5em;
+    margin: 10px auto;
 }
 
 .inputStyle {
     background-color: #aac466;
+    border: 2px solid #333934;
 }
-
+.inputStyle:hover {
+    color: #aac466;
+    background-color: #333934;
+    border: 2px solid #aac466;
+}
 .consentButton {
     padding: 10px 0px;
 }
 
-@media only screen and (min-width : 768px) {
-  .formArea {
-      margin: 20px auto;
-      width: 50%;
-      border-radius: 2%;
-   }
+@media only screen and (min-width: 768px) {
+    .formArea {
+        margin: 20px auto;
+        width: 50%;
+        border-radius: 2%;
+    }
+    .aboutSection {
+        margin: 0 auto;
+        width: 50%;
+        border-radius: 2%;
+    }
 }
 .aboutSection {
     margin-bottom: 100px;
-}.card {
+}
+.card {
     border: none;
 }
-.accordionColorOne {
-  background-color: #a9c164;
+.aboutSection {
+    width: 90%;
+}
+.accordionStyle {
+    background-color: #a9c164;
 }
 .buttonText {
     margin: 0 auto;
@@ -331,14 +387,14 @@ h4 {
 .buttonText:hover {
     margin: 0 auto;
     width: 150px;
-    border: 2px solid #FFFDE4;
+    border: 2px solid #fffde4;
     border-radius: 10px;
-    background-color:#333934;
-    color: #FFFDE4
+    background-color: #333934;
+    color: #fffde4;
 }
 .cardBodyTextArea {
     background-color: #333934;
-    color: #FFFDE4;
+    color: #fffde4;
     text-align: center;
 }
 .welcomeImage img {
@@ -348,59 +404,34 @@ h4 {
 
 .birdImage img {
     max-width: 70px;
-    height: auto; 
+    height: auto;
 }
 
 .shoppingImage img {
     max-width: 120px;
     height: auto;
 }
-@media only screen and (min-width : 576px) {
+@media only screen and (min-width: 576px) {
+    .welcomeImage img {
+        max-width: 150px;
+        height: auto;
+    }
 
-.welcomeImage img {
-    max-width: 150px;
-    height: auto;
-}
+    .birdImage img {
+        max-width: 100px;
+        height: auto;
+    }
 
-.birdImage img {
-    max-width: 100px;
-    height: auto; 
-}
-
-.shoppingImage img {
-    max-width: 200px;
-    height: auto;
-
-}
+    .shoppingImage img {
+        max-width: 200px;
+        height: auto;
+    }
 }
 
 /*-----------------------------------TEXT HERE!-------------------------*/
 
-
-
-
-
-
-
+/*-----------------------------------TEXT HERE!-------------------------*/
 
 /*-----------------------------------TEXT HERE!-------------------------*/
 
-
-
-
-
-
-
-
 /*-----------------------------------TEXT HERE!-------------------------*/
-
-
-
-
-
-
-
-
-/*-----------------------------------TEXT HERE!-------------------------*/
-
-
