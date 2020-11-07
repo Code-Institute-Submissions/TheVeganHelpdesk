@@ -27,9 +27,9 @@ body {
     background-color: #333934;
     color: #fffde4;
 }
-h2 {
+/*-h2 {
     color: #333934;
-}
+}-*/
 
 .indie {
     font-family: "Indie Flower", cursive;
@@ -84,10 +84,12 @@ footer {
 }
 
 .logoBanner h4 {
-    margin-top: 0;
-    text-align: left;
-    margin: auto 0;
-    padding: 30px 10px;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0 auto;
+    padding: 40px 10px 20px 10px;
     width: 40%;
 }
 h1 {
@@ -97,7 +99,7 @@ h3 {
     font-size: 25px;
 }
 h4 {
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     padding: 10px 30px 10px 30px;
 }
@@ -119,19 +121,16 @@ h4 {
         background-repeat: no-repeat;
         height: 500px;
     }
+    .logoBanner h4 {
+        font-size: 60px;
+        font-weight: 900;
+        text-align: center;
+        margin-top: 50px;
+        padding: 20px 10px;
+        width: 30%;
+    }
 }
-.sectionHeading {
-    background: linear-gradient(0deg, #aac466, transparent);
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-.sectionHeading h3 {
-    padding-top: 20px;
-    text-align: center;
-   
-    
-}
+
 /*-----------------------------------Footer-------------------------*/
 
 .copyright {
@@ -158,15 +157,46 @@ h4 {
     color: #1da1f2;
 }
 
-/*-----------------------------------Index page specific-------------------------*/
+/*-----------------------------------Index and getting started page specific-------------------------*/
 
+.sectionHeading {
+    background: linear-gradient(0deg, #aac466, transparent);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.sectionHeading h3 {
+    padding-top: 20px;
+    text-align: center; 
+}
 .reasonsEnvironment,
 .reasonsAnimals,
-.reasonsHealth {
+.reasonsHealth, 
+.gettingStartedSlow,
+.gettingStartedVeganMeat,
+.gettingStartedProtein {
     padding-bottom: 20px;
     
 }
-/*-----------------------------------Index page media-------------------------*/
+.reasons, .gettingStarted {
+    text-align: center;
+}
+.reasons h4, .gettingStarted h4 {
+    text-decoration: underline;
+}
+.reasonsEnvironment, .gettingStartedSlow {
+    background: linear-gradient(0deg, #fffde4, #aac466);
+    padding: 15px 10px;
+}
+.reasonsAnimals, .gettingStartedVeganMeat {
+    background: linear-gradient(0deg, #aac466, #fffde4);
+    padding: 15px 10px;
+}
+.reasonsHealth, .gettingStartedProtein{
+    background: linear-gradient(0deg, #fffde4, #aac466);
+    padding: 15px 10px 80px 10px;
+}
+/*-----------------------------------Index and Getting Started page media-------------------------*/
 .reasonsEnvironment .chartStyle {
     height: 30px;
     border-radius: 20px;
@@ -177,16 +207,7 @@ h4 {
 .climateStyle p {
     padding: 10px;
 }
-.reasonsHealth img {
-    display: inline-block;
-    max-width: 60%;
-    height: auto;
-    vertical-align: middle;
-    padding: 10px;
-    border-radius: 50%;
-    object-fit: fill;
-}
-.reasonsImage img {
+.reasonsImage img, .gettingStartedImage img  {
     display: inline-block;
     max-width: 300px;
     height: auto;
@@ -195,44 +216,14 @@ h4 {
     border-radius: 50%;
     object-fit: fill;
 }
+/*-----------------------------------Page 2 Getting Started Sign Up button and Modal-------------------------*/
 
-/*-----------------------------------Index page content-----------------------*/
-.reasons {
-    text-align: center;
-}
-.reasonsHeading {
-    background-color: #333934;
-    color: #fffde4;
-}
-.reasonsEnvironment {
-    background: linear-gradient(0deg, #fffde4, #aac466);
-    padding: 15px 10px;
-}
-.reasonsAnimals {
-    background: linear-gradient(0deg, #aac466, #fffde4);
-    padding: 15px 10px;
-}
-.reasonsHealth {
-    background: linear-gradient(0deg, #fffde4, #aac466);
-    padding: 15px 10px 80px 10px;
-}
-
-/*-----------------------------------Page 2 Getting Started-------------------------*/
-
-.gettingStartedImage img {
-    display: inline-block;
-    max-width: 300px;
-    height: auto;
-    vertical-align: middle;
-    padding: 10px;
-    border-radius: 50%;
-    object-fit: fill;
-}
 .gettingStartedSignUp {
     color: #333934;
     text-decoration: underline;
-   background: transparent;
-   border:none;
+    font-weight: 600;
+    background: transparent;
+    border: none;
    
 }
 .gettingStartedSignUp:hover {
@@ -241,7 +232,7 @@ h4 {
     border-radius: 20px;
 }
 .modal-content {
-   background-color: #fffde4;
+    background-color: #fffde4;
 }
 /*-----------------------------------LocalHero!-------------------------*/
 .jumbotron {
@@ -294,12 +285,12 @@ h4 {
 .galleryItem {
     border-radius: 5%;
 }
-.galleryItem h5,
+.galleryItem span,
 .galleryItem p {
     color: #333934;
     background-color: #fffde4;
     border-radius: 20px;
-    padding: 2px;
+    padding: 2px 5px;
 }
 
 .localHeroSignUp {
@@ -320,15 +311,14 @@ h4 {
     width: 90%;
     background-color: #fffde4;
     border-radius: 2%;
-    padding: 1.5em 1.5em;
-    margin: 10px auto;
+    
 }
 /*-----------------------------------Form-------------------------*/
 .signUpFormBody {
     background-image: url("/assets/images/limes.jpg");
     background-size: cover;
     width: 100%;
-    height: auto;
+    height: 300px;
     background-repeat: no-repeat;
     z-index: -1;
 }
@@ -358,22 +348,24 @@ h4 {
     .formArea {
         margin: 20px auto;
         width: 50%;
-        border-radius: 2%;
+        border-radius: 10px;
     }
     .aboutSection {
         margin: 0 auto;
-        width: 50%;
-        border-radius: 2%;
+        border-radius: 10px;
+        background: linear-gradient(0deg, #aac466, transparent);
     }
 }
+
+
 .aboutSection {
-    margin-bottom: 100px;
-}
-.card {
-    border: none;
+    background: linear-gradient(0deg, #aac466, transparent);
+    margin-bottom: 10px;
+    width: 100%;
 }
 .aboutSection {
     width: 90%;
+    margin: 0 auto;
 }
 .accordionStyle {
     background-color: #a9c164;
@@ -398,40 +390,11 @@ h4 {
     text-align: center;
 }
 .welcomeImage img {
-    max-width: 100px;
-    height: auto;
+    display: inline-block;
+    max-width: 200px;
+    
+    vertical-align: middle;
+    padding: 10px;
+    object-fit: fill;
+    
 }
-
-.birdImage img {
-    max-width: 70px;
-    height: auto;
-}
-
-.shoppingImage img {
-    max-width: 120px;
-    height: auto;
-}
-@media only screen and (min-width: 576px) {
-    .welcomeImage img {
-        max-width: 150px;
-        height: auto;
-    }
-
-    .birdImage img {
-        max-width: 100px;
-        height: auto;
-    }
-
-    .shoppingImage img {
-        max-width: 200px;
-        height: auto;
-    }
-}
-
-/*-----------------------------------TEXT HERE!-------------------------*/
-
-/*-----------------------------------TEXT HERE!-------------------------*/
-
-/*-----------------------------------TEXT HERE!-------------------------*/
-
-/*-----------------------------------TEXT HERE!-------------------------*/
