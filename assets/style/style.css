@@ -72,7 +72,7 @@ footer {
 /*-----------------------------------Header-------------------------*/
 .logoBanner {
     position: relative;
-    background-image: url("assets/images/limes.jpg");
+    background-image: url("../images/limes.jpg");
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
@@ -112,7 +112,7 @@ h4 {
     }
 
     .logoBanner {
-        background-image: url("assets/images/limes.jpg");
+        background-image: url("../images/limes.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         height: 500px;
@@ -251,7 +251,7 @@ h4 {
         padding: 0 15px;
     }
 }
-/*--W3C Schools code as part of SCG image style--*/
+/*--W3C Schools code as part of SVG image style--*/
 .superHeroImage img {
     display: block;
     margin-left: auto;
@@ -322,7 +322,7 @@ h4 {
 }
 /*-----------------------------------Form-------------------------*/
 .signUpFormBody {
-    background-image: url("assets/images/limes.jpg");
+    background-image: url("../images/limes.jpg");
     background-size: cover;
     width: auto;
     height: 100%;
@@ -364,6 +364,7 @@ h4 {
         margin: 20px auto;
         width: 50%;
         border-radius: 10px;
+        padding-bottom: 20px;
     }
     .aboutSection {
         position: absolute;
@@ -372,7 +373,7 @@ h4 {
         background: linear-gradient(0deg, #333934, transparent);
     }
 }
-/*--W3C Schools code as part of SCG image style--*/
+/*--W3C Schools code as part of SVG image style--*/
 .welcomeImage img {
     display: block;
     margin-left: auto;
