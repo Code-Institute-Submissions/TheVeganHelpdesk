@@ -6,16 +6,12 @@
 Charcoal: #333934;
 
 Cream: #FFFDE4;
-
-Dark Green: #0f542e;---*/
+---*/
 
 nav {
     background-color: #fffde4;
     font-weight: 400;
     font-size: 16px;
-}
-nav button i {
-    color: #333934;
 }
 
 body {
@@ -51,6 +47,9 @@ body {
     background-color: #0f542e;
 }
 /*-----------------------------------General Page Layout-------------------------*/
+
+/*---The following 3 are based on https://www.freecodecamp.org/ 
+"how to keep a footer at the bottom of the page"---*/
 .pageContainer {
     position: relative;
     min-height: 100vh;
@@ -122,7 +121,7 @@ h4 {
         font-size: 60px;
         font-weight: 900;
         text-align: center;
-        margin-top: 50px;
+        margin-top: 30px;
         padding: 20px 10px;
         width: 30%;
     }
@@ -213,10 +212,8 @@ h4 {
     display: inline-block;
     max-width: 300px;
     height: auto;
-    vertical-align: middle;
     padding: 10px;
     border-radius: 50%;
-    object-fit: fill;
 }
 /*-----------------------------------Page 2 Getting Started Sign Up button and Modal-------------------------*/
 
@@ -254,6 +251,7 @@ h4 {
         padding: 0 15px;
     }
 }
+/*--W3C Schools code as part of SCG image style--*/
 .superHeroImage img {
     display: block;
     margin-left: auto;
@@ -374,7 +372,7 @@ h4 {
         background: linear-gradient(0deg, #333934, transparent);
     }
 }
-
+/*--W3C Schools code as part of SCG image style--*/
 .welcomeImage img {
     display: block;
     margin-left: auto;
