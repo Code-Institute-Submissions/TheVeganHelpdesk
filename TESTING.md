@@ -74,3 +74,17 @@ Local Hero page. Offers a little more interactivity, can control the gallery, an
 Form Page. Short form to fill in, not asking for too much data. Requires consent to be contacted.
 
 Easy to navigate, simple website. Plenty of opportunities to sign up throughout. The user is never overloaded with information. This is a relaxed, experience that will hopefully encourage the user to be happy to reduce their meat and dairy intake if they wish. 
+
+## After Deployment and Lighthouse
+
+### Lighthouse
+- JS scripts were removed from Index and Gettingstarted for performance reasons.
+- Alt text was added to the social media icons but this then failed validation and was removed.
+- Beans image size reduced
+- performance low on index and html still, not as much happening in these pages, still loading full bootstrap library which is neccessary for Navbar but not serving much other function for these pages.
+
+### Deployment
+- relative file paths removed for images
+- overlap occuring on sign up page between form and about section.
+- all links and modals functioning
+- all pages functioning as intended

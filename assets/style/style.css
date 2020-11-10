@@ -362,7 +362,7 @@ h4 {
 @media only screen and (min-width: 768px) {
     .formArea {
         margin: 20px auto;
-        width: 50%;
+        width: 75%;
         border-radius: 10px;
         padding-bottom: 20px;
     }
@@ -371,6 +371,14 @@ h4 {
         bottom: 80px;
         width: 100%;
         background: linear-gradient(0deg, #333934, transparent);
+    }
+}
+@media only screen and (min-width: 992px) {
+    .formArea {
+        margin: 20px auto;
+        width: 50%;
+        border-radius: 10px;
+        padding-bottom: 20px;
     }
 }
 /*--W3C Schools code as part of SVG image style--*/
