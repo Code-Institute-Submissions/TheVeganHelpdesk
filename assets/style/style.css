@@ -210,7 +210,7 @@ h4 {
 .reasonsImage img,
 .gettingStartedImage img {
     display: inline-block;
-    max-width: 300px;
+    width: 300px;
     height: auto;
     padding: 10px;
     border-radius: 50%;
