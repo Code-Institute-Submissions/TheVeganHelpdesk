@@ -72,7 +72,7 @@ footer {
 /*-----------------------------------Header-------------------------*/
 .logoBanner {
     position: relative;
-    background-image: url("/assets/images/limes.jpg");
+    background-image: url("assets/images/limes.jpg");
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
@@ -112,7 +112,7 @@ h4 {
     }
 
     .logoBanner {
-        background-image: url("/assets/images/limes.jpg");
+        background-image: url("assets/images/limes.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         height: 500px;
@@ -322,7 +322,7 @@ h4 {
 }
 /*-----------------------------------Form-------------------------*/
 .signUpFormBody {
-    background-image: url("/assets/images/limes.jpg");
+    background-image: url("assets/images/limes.jpg");
     background-size: cover;
     width: auto;
     height: 100%;
