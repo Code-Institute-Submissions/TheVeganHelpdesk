@@ -147,7 +147,7 @@ Cloning in other IDEs
 - type: 'git clone' followed by pasting the copied link, and press enter
 - your clone should be created. for troubleshooting, see: [Github docs](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
-View [The Vegan Helpdesk]() here
+View [The Vegan Helpdesk](https://shinners888.github.io/TheVeganHelpdesk/) here
 ---
 ## Credits
 
