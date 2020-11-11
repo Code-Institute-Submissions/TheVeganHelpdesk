@@ -6,13 +6,13 @@
 
  - Showed up in the head section, http-equiv had ie-edge instead of ie=edge for the content.
 
- - The form from Bootstrap had legend as the direct child of a div instead of fieldset. While it was working for me, the validator did not pass this. Legend was changed to 'label' (line 153 in gettingstarted.html, line 149 in localhero.html and line 55 in signup.html)
+ - The form from Bootstrap had legend as the direct child of a div instead of a fieldset. While it was working for me, the validator did not pass this. Legend was changed to 'label' (line 153 in gettingstarted.html, line 149 in localhero.html and line 55 in signup.html)
 
 Declared valid using [Validator.nu](https://html5.validator.nu/) and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
 ### First Draft
 
- - The earlier wireframe was supposed to be the layout for the project. The 'about' sections were being implemented using bootstrap accordion. In practise, while fun, this approach looked cluttered and childish and added nothing of substance to the project. The hero section of the initial wireframe was also too busy, and the Logo was removed. 
+ - The earlier wireframe ([desktop](https://github.com/Shinners888/TheVeganHelpdesk/blob/master/assets/wireframes/vhdesktopfirstdraft.pdf) and [mobile](https://github.com/Shinners888/TheVeganHelpdesk/blob/master/assets/wireframes/vhmobilefirstdraft.pdf)) was supposed to be the layout for the project. The 'about' sections were being implemented using bootstrap accordion. In practise, while fun, this approach looked cluttered and childish and added nothing of substance to the project. The hero section of the initial wireframe was also too busy, and the Logo was removed. 
 This allowed for a total reimagining of the project and the final product is cleaner and clearer.
 
 ### Page Layout/Footer.
@@ -87,4 +87,14 @@ Easy to navigate, simple website. Plenty of opportunities to sign up throughout.
 - relative file paths removed for images
 - overlap occuring on sign up page between form and about section.
 - all links and modals functioning
-- all pages functioning as intended
+- all pages functioning as intended 
+- in mobile version, the arrows in the gallery for local hero are outside the photo area.
+
+### Known bugs to be fixed
+- Sign up form page. In medium+ screen, if the viewport is reduced vertically, the about section moves over the form. The about section needs to be positioned "absolute" to prevent any space between the bottom and the footer. 
+Attempts included:
+  - moving the container to outside the content body container.
+  - wrapping the absolute div inside a relative div.
+  - setting display: inline-block to both the form and the about section
+
+- Implementing JavaScript functions into the forms

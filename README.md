@@ -5,7 +5,7 @@ A community based website for new and old vegans, people who are interested in s
 - reasons to try out a plant based diet
 - advice on getting started and what to try
 - a featured brand specialising in plant based foods
-- a sign-up to receive monthly e-zines on new products on the market, community recipes, and the 15% off featured brands
+- a sign-up to receive monthly e-zines on new products on the market, community recipes, and the 15% off featured brand (local hero)
 
 ---
 ## Goals
@@ -40,13 +40,13 @@ The Helpdesk will be a good place to go because:
 
 Each page has a responsive navigation bar at the top, which collapses down to a hamburger button and the site name on smaller devices. The footer matches in colour with basic "copyright" info and social links (These lead to the various social media main pages as this company is fictional!) The colors for these were determined using [Encycolorpedia](https://encycolorpedia.com/) and [BrandGradients](http://www.brandgradients.com/). I did not end up using multicolors for the Instagram Logo, but used the linear gradient function I discovered in Brandgradients for many parts of the rest of the project.
 
-There is an over-all colour scheme of cream, green and charcoal, with the green being taken from the main hero image (using the color finder in the developer tools). The local hero page has a different layout and aesthetic, as its focus is to promote a parter company. The hero image becomes the background image to the sign up form.
+There is an over-all colour scheme of cream, green and charcoal, with the green being taken from the main hero image (using the color finder in the developer tools). The local hero page has a different layout and aesthetic, as its focus is to promote a partner company. The hero image becomes the background image to the sign up form.
 
 ### 1. Home page
 
 This is an introductory page with a background style hero image, intended not to clutter the header area. There is a small 'headline' to the left of the image. The title of the website will appear only in the browser and nav bars. The page contains typical reasons peeple have for switching to a plant-based diet.
 
-The first is environmental with a visual comparison of the various dietary impacts on the environment. This is purely a visual comparison aid using bootstraps progress bar tool. The information here is based on basic searches regarding the impact of diet on the environment. No one source. I have not included numbers on the graph for this reason.
+The first is environmental with a visual comparison of the various dietary impacts on the environment. This is purely a visual comparison aid using bootstraps progress bar tool. The information here is based on basic searches regarding the impact of diet on the environment. No one particular source. I have not included numbers on the graph for this reason.
 
 The second and third are animals and health, with accompanying images. All three observe the rule of thirds when viewed in full screen, and condense as the screen gets smaller to a mobile screen where elements take a full col-12 width. This is altered slightly for larger screens, offset on each side by one column to avoid the text spreading out on lines too long to comfortably read.
 
@@ -62,7 +62,7 @@ This is a showcase of a local company that is plant-based or environmentally fri
 
 There is a literal hero image in a bootstrap Jumbotron, with a sign up link to the modal again. The jumbotron fades to the charcoal for the next section. 
 
-This is a charcoal background with the Company name as the title, followed by a small blurb about the comapny ad a link tot ehir website/media. This is followed by an easily maintained bootstrap carousel featuring product images for the company.
+This is a charcoal background with the Company name as the title, followed by a small blurb about the comapny ad a link to their website/media. This is followed by an easily maintained bootstrap carousel featuring product images for the company.
 
 ### 4. Sign Up Page
 
@@ -70,12 +70,12 @@ This features the hero image as a full background for the page. The sign up form
 
 ### Wireframes
 
-- [Wireframe Page 1]()
-- [Wireframe Page 2]()
-- [Wireframe Page 3]()
-- [Wireframe Page 4]()
-- Original Wireframe Desktop
-- Original Wireframe Mobile
+- [Wireframe Page 1](https://github.com/Shinners888/TheVeganHelpdesk/blob/master/assets/wireframes/vhhomepagefinal.png) (home page)
+- [Wireframe Page 2](https://github.com/Shinners888/TheVeganHelpdesk/blob/master/assets/wireframes/vhgettingstartedpagefinal.png) (getting started page)
+- [Wireframe Page 3](https://github.com/Shinners888/TheVeganHelpdesk/blob/master/assets/wireframes/vhlocalheropagefinal.png) (local hero page)
+- [Wireframe Page 4](https://github.com/Shinners888/TheVeganHelpdesk/blob/master/assets/wireframes/vhsignuppagefinal.png) (sign up page)
+- [Original Wireframe Desktop](https://github.com/Shinners888/TheVeganHelpdesk/blob/master/assets/wireframes/vhdesktopfirstdraft.pdf) (draft version)
+- [Original Wireframe Mobile](https://github.com/Shinners888/TheVeganHelpdesk/blob/master/assets/wireframes/vhmobilefirstdraft.pdf) (draft version)
 
 
 ---
@@ -107,7 +107,7 @@ The navigation bar, sign up form, basic grid layout, modal, carousel, progress b
 
 There was to be an introduction to the website above the reasons section in the Introduction as per the Wireframe, but it ended up looking cluttered and a little childish, and ultimately added nothing to the website. There is a small about section added to the final page instead.
 
-The layout of the page past the hero image is constructed using the .row and .col containers from Bootstrap. For small and medium screens, each col will be full width as after various aesthetic tests, this was the tidiest option for a medium screen. In large+ screens, this will observe the rule of thirds: the image/bar chart will take up one third with the text taking two.
+The layout of the page past the hero image is constructed using the .row and .col containers from Bootstrap. For small and medium screens, each col will be full width as after various aesthetic tests, this was the tidiest option for a medium screen. In large+ screens, this will observe the rule of thirds: the image/bar chart will take up one third with the text taking two. (in extra large screens, these are offset to avoid the text spreading out too far)
 
 The images files for these needed to be square (as opposed to rectangular) in order to maintain similar dimensions as the corners were curved off to a circle. These were all styled the same way to maintain a visual harmony between elements.
 
@@ -116,7 +116,38 @@ The background colour for each section is comprised of the main cream and green 
 This was created with a mobile first attitude in mind as I was drawing on Bootstrap. In keeping with this, all CSS is correct for mobile devices first and where necessary, media adjustments are made for larger devices.
 
 
+See [TESTING.md](https://github.com/Shinners888/TheVeganHelpdesk/blob/master/TESTING.md) for testing info.
 
+## Deployment
+
+This project was developed in [Gitpod](https://gitpod.io/), committed to git and pushed to GitHub.
+
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+-  Go to github and log into your account.
+-  Select [project repository](https://github.com/Shinners888/TheVeganHelpdesk)
+-  Above green Gitpod button, select settings, and scroll down to gitpod pages section
+-  In source: select master branch and root folder.
+-  Hit save. This may then require patient waiting for the site to be deployed!
+-  Scroll back down to the GitHub Pages section to retrieve the link to the deployed website. If it is not yet ready, make some tea and wait.
+
+## Cloning the repository
+
+Cloning in Gitpod
+- log into your Github account
+- go to [this repository](https://github.com/Shinners888/TheVeganHelpdesk)
+- click on the green gitpod button (Ensure you have a gitpod account and the gitpod browser extension. Recommended to do this in chrome)
+- this will now open a new gitpod workspace using the code in github, for you to work on
+
+Cloning in other IDEs
+- go to [this repository](https://github.com/Shinners888/TheVeganHelpdesk)
+- beside the green gitpod button, click the 'code' dropdown
+- select the HTTPS option and copy the link to your clipboard
+- go to your IDE and open the terminal
+- type: 'git clone' followed by pasting the copied link, and press enter
+- your clone should be created. for troubleshooting, see: [Github docs](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+
+View [The Vegan Helpdesk]() here
 ---
 ## Credits
 
@@ -158,7 +189,7 @@ Favicon image was created using [Free Logo Designer](https://www.freelogodesign.
 
 ### - Content
 
-Text was delipberately vague. No actual data was used for the environment chart. 
+Text was deliberately vague. No actual data was used for the environment chart. 
 
 ### - Thanks
 
